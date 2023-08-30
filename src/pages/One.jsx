@@ -47,7 +47,7 @@ const One = () => {
     <>
       <div className='wrapper'>
         <div className='fcc space-x-4 ml-[-41rem]'>
-          <h2>01</h2>
+          <h2>01 t</h2>
           <h1 className='uppercase tracking-widest'>Pick your destination</h1>
         </div>
         <div className='fcc mt-10 mb-5'>
