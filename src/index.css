@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bellefair', serif;
+  color: #0b0d17;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('./assets/01BG.svg'); */
+ 
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@layer components {
+  .wrapper {
+    padding: 1.5rem;
+  }
+  .fbc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .fcc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fc {
+    display: flex;
+    align-items: center;
+  }
+}
